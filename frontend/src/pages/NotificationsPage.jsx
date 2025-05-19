@@ -22,6 +22,9 @@ const NotificationsPage = () => {
   const incomingRequests = friendRequests?.incomingReqs || [];
   const acceptedRequests = friendRequests?.acceptedReqs || [];
 
+  console.log("Accepted Requests:", acceptedRequests);
+
+
   return (
     <div className="p-4 sm:p-6 lg:p-8">
       <div className="container mx-auto max-w-4xl space-y-8">
